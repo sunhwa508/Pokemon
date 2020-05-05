@@ -1,0 +1,38 @@
+.pokelist {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 4rem;
+  grid-gap: 15px;
+}
+body {
+  font-family: "Roboto", sans-ser;
+  background-color: rgb(217, 243, 217);
+}
+h2 {
+  color: rgb(0, 48, 8);
+  /* text-shadow: 1px 1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000,
+      -1px 1px 0 #000, 0 1px 0 #000, 1px 0 0 #000, 0 -1px 0 #000, -1px 0 0 #000,
+      1px 1px 5px #000; */
+}
+input {
+  border: none;
+  padding: 15px 10px;
+  width: 50%;
+  border-radius: 15px;
+  font-size: 1.5rem;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  font-family: "Poor Story", cursive;
+}
+.poke {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  background-color: rgb(255, 255, 255);
+  padding-top: 20px;
+  cursor: pointer;
+  transition: 0.3s all ease;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.poke:hover {
+  transform: rotate(8deg);
+}
